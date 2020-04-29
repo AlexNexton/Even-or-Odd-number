@@ -3,22 +3,20 @@ public class evenOdd {
 
 	public static void main(String[] args) {
 		
-		
-				int number; 
+	int number; 
 				
-				
-				System.out.println("Enter a number.");
-				Scanner input = new Scanner(System.in);
-				number = input.nextInt();
-				int b = 0;
+	System.out.println("Enter a number.");
+	Scanner input = new Scanner(System.in);
+	number = input.nextInt();
+	int b = 0;
 					
-				while(b <= number) {
+	while(b <= number) {
 						
-						if(b%2 == 0) { //change the zero to 1 to print odd numbers
+		if(b%2 == 0) { //change the zero to 1 to print odd numbers
 							
-							System.out.print(b + " ");
-							}
-						b ++;
-						}
-				}
+			System.out.print(b + " ");
+		}
+		    b ++;
+		}
 	}
+}
